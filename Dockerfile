@@ -1,12 +1,7 @@
 # base image
 FROM python:3.9.13-slim
 
-# install netcat
-RUN apt-get update && \
-    apt-get -y install netcat && \
-    apt-get clean
-
-# set working directory
+RUN apt-get update 
 WORKDIR /app
 
 # add and install requirements
