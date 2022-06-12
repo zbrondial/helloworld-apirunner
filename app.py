@@ -2,7 +2,7 @@ import requests
 from flask import Flask, render_template, request, flash
 
 app = Flask(__name__)
-app.secret_key = "manbearpig_MUDMAN888"
+app.secret_key = "wor1dh3ll0_z1z0"
 
 @app.route("/hello")
 def index():
@@ -13,6 +13,6 @@ def index():
 def greeter():
 	url = str(request.form['name_input'])
 	# flash("Hi " + str(request.form['name_input']) + ", great to see you!")
-	result = requests.get(url).text
+	result = ("API Result: " + requests.get(url).text)
 	flash(result)
 	return render_template("index.html")

@@ -4,7 +4,8 @@ body {
 }
 p {
   color: white;
-  font-family: sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
   font-size: 1.2em;
   display: inline-block;
   margin: 20px;
@@ -19,7 +20,8 @@ input {
   height: 50px;
   border: none;
   border-radius: 10px;
-  font-family: sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
   font-size: 1.1em;
   text-align: center;
 }
