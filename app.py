@@ -12,7 +12,6 @@ def index():
 @app.route("/greet", methods=['GET', 'POST'])
 def greeter():
 	url = str(request.form['name_input'])
-	# flash("Hi " + str(request.form['name_input']) + ", great to see you!")
 	result = ("API Result: " + requests.get(url).text)
 	flash(result)
 	return render_template("index.html")
