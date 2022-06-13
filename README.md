@@ -6,7 +6,7 @@ A simple API Runner web pp built with flask and can run on a Kubernetes cluster.
 
 - python at least 3.9
 - kubectl
-- docker desktop - make sure to ticket the checkboxex for enabling Kubernetes
+- docker desktop - make sure to tick the checkboxes for enabling Kubernetes
   ![Enabling k8s on Docker Desktop](/assets/docker-desktop.png)
 
 ## Procedure on local application testing via flask run
