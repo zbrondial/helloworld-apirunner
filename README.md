@@ -1,6 +1,7 @@
 # Hellow World API Runner
 
-A simple API Runner web app built with flask and can run on a Kubernetes cluster.
+A simple API Runner web app built with Flask and can run on a Kubernetes cluster.
+
 ![Say Hello Architecture](/assets/sayhello_app_arch.drawio.png)
 
 ## Pre-requisites
