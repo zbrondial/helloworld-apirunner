@@ -1,4 +1,4 @@
-# Hellow World API Runner
+# Hello World API Runner
 
 A simple API Runner web app built with Flask and can run on a Kubernetes cluster.
 
