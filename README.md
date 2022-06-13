@@ -3,13 +3,6 @@
 A simple API Runner web app built with flask and can run on a Kubernetes cluster.
 ![Say Hello Architecture](/assets/sayhello_app_arch.drawio.png)
 
-## Accessing and Testing the Application
-
-- https://sayhello.zi-zd.com/
-- Enter the Hello World API URL
-- https://u99w0hvk0m.execute-api.ap-southeast-1.amazonaws.com/hw
-  ![Say Hello Web](/assets/sayhello_app_web.png)
-
 ## Pre-requisites
 
 - python at least 3.9
@@ -172,3 +165,10 @@ kube-dns               ClusterIP      172.20.0.10     <none>                    
 kubectl describe service flask-webapp-service -n kube-system | grep Ingress
 LoadBalancer Ingress:     a2d6c943b87554b48a2c7b1158d4d556-103598869.ap-southeast-1.elb.amazonaws.com
 ```
+
+## Accessing and Testing the Application
+
+- https://sayhello.zi-zd.com/
+- Enter the Hello World API URL
+- https://u99w0hvk0m.execute-api.ap-southeast-1.amazonaws.com/hw
+  ![Say Hello Web](/assets/sayhello_app_web.png)
