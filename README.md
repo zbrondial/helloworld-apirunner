@@ -1,12 +1,20 @@
 # Hellow World API Runner
 
 A simple API Runner web pp built with flask and can run on a Kubernetes cluster.
+![Say Hello Architecture](/assets/sayhello_app_arch.drawio.png)
+
+## Accessing and Testing the Application
+
+- https://sayhello.zi-zd.com/
+- Enter the Hello World API URL
+- https://u99w0hvk0m.execute-api.ap-southeast-1.amazonaws.com/hw
+  ![Say Hello Web](/assets/sayhello_app_web.png)
 
 ## Pre-requisites
 
 - python at least 3.9
 - kubectl
-- docker desktop - make sure to tick the checkboxes for enabling Kubernetes
+- docker desktop - make sure to tick the checkboxes for enabling Kubernetes Cluster
   ![Enabling k8s on Docker Desktop](/assets/docker-desktop.png)
 
 ## Procedure on local application testing via flask run
